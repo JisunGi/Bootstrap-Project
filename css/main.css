@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(./font/IRANYekanRegular.woff);
+}
+body {
+  font-family: iranyekan !important;
+}
+.hvr {
+  transition: all 200ms linear;
+}
+.hvr:hover {
+  background-color: black;
+}
+.hvr:hover > span {
+  color: white !important;
+}
+.fosi {
+  font-size: 13px;
+}
+.hvr1 {
+  transition: all 200ms linear;
+}
+.hvr1:hover {
+  background-color: black !important;
+}
+.hvr1:hover > a > span {
+  color: orange !important;
+}
+.hei {
+  width: 100%;
+  object-fit: cover;
+  height: 540px;
+}
+.bs {
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.mar {
+  margin-top: 180px;
+}
+.color {
+  color: #555555;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.wi {
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.fix {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.fix::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.18;
+  background: url(../Media/bg-white.png) fixed center;
+}
+.fixe {
+  background: url(../Media/bg-dark.png) fixed center black;
+  position: relative;
+  isolation: isolate;
+}
+.fixe::after {
+  content: "";
+  position: absolute;
+  background: black;
+  inset: 0;
+  z-index: -1;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+.tj {
+  text-align: justify;
+  opacity: 0.8;
+}
+.ho {
+  transition: all 350ms linear;
+}
+.ho:hover {
+  transform: translateY(-10px);
+}
+.ho > h6 {
+  transition: all 300ms linear;
+}
+.ho:hover > h6 {
+  color: #d79d4b !important;
+}
+button.hov {
+  transition: all 200ms linear;
+}
+button.hov:hover {
+  background-color: black;
+  color: #d79d4b;
+}
+.fsb {
+  font-size: 60px;
+  color: #dfdfdf;
+}
+.bsh {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1), -3px -3px 20px rgba(0, 0, 0, 0.1);
+}
+.hvr5 {
+  transition: all 200ms linear;
+}
+.hvr5:hover {
+  color: orange !important;
+  background-color: black !important;
+}
+.fixeed::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.13;
+  background: url(../Media/mazebg.png) fixed center;
+}
+.fixeed {
+  width: 100%;
+  position: relative;
+}
+.bgo {
+  background-color: #d79d4b;
+}
+.dayere {
+  background-color: #af7f3d;
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+.hvr4 {
+  transition: all 200ms linear;
+  background-color: #232322;
+  border-radius: 50%;
+  padding: 8px;
+}
+.hvr4:hover {
+  background-color: #c69248;
+  color: black !important;
+}
+.tj {
+  text-align: justify;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.hvr6 {
+  transition: all 250ms linear;
+}
+.hvr6:hover {
+  color: white !important;
+  background-color: orange !important;
+}
+.cnt {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  transition: all 200ms linear;
+}
+.cnt:hover {
+  scale: 1.03;
+}
+.pos {
+  font-size: 13px;
+  width: 90%;
+  top: 90%;
+  text-shadow: 3px 3px 5px black;
+}

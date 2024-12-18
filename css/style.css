@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(./font/IRANYekanRegular.woff);
+}
+body {
+  font-family: iranyekan !important;
+}
+.fosi {
+  font-size: 13px;
+}
+.hvr {
+  transition: all 200ms linear;
+}
+.hvr:hover {
+  background-color: black;
+}
+.hvr:hover > span {
+  color: white !important;
+}
+.hvr1 {
+  transition: all 200ms linear;
+}
+.hvr1:hover {
+  background-color: black !important;
+}
+.hvr1:hover > a > span {
+  color: orange !important;
+}
+.height {
+  height: 350px;
+  object-fit: cover;
+}
+.width {
+  width: 50%;
+}
+.bcg {
+  background-color: #eeeeee;
+}
+.height-2 {
+  height: 88px;
+}
+.hvr2 {
+  transition: all 200ms linear;
+}
+.hvr2:hover {
+  background-color: orange !important;
+  color: white !important;
+}
+.hvr3 {
+  transition: all 100ms linear;
+}
+.hvr3:hover {
+  color: white !important;
+}
+.tj {
+  text-align: justify;
+  line-height: 35px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.hvr4 {
+  transition: all 200ms linear;
+  background-color: #232322;
+  border-radius: 50%;
+  padding: 8px;
+}
+.hvr4:hover {
+  background-color: #c69248;
+  color: black !important;
+}
+.bgo {
+  background-color: #d79d4b;
+}
+.dayere {
+  background-color: #af7f3d;
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
